@@ -36,12 +36,13 @@ h4,
 h5,
 h6,
 p {
-  margin: 0%;
+  margin: 0;
 }
 
 img {
   display: block;
 }
+
 address {
   font-style: normal;
 }
@@ -181,14 +182,23 @@ address {
 
 .header-contacts .contacts {
   color: var(--secondary-text-color);
+
   font-weight: 500;
   letter-spacing: 0.02em;
+
   text-decoration: none;
 }
 
 .header-contacts .contacts:hover,
 .header-contacts .contacts:focus {
   color: var(--accent-text-color);
+}
+
+.link,
+.contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Hero */
