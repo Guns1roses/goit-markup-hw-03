@@ -64,17 +64,6 @@ address {
   cursor: pointer;
 }
 
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0%;
-}
-
-.link {
-  text-decoration: none;
-  list-style: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -98,6 +87,22 @@ address {
 
   margin-left: auto;
   margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0%;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
 }
 
 /* Header */
@@ -207,7 +212,16 @@ address {
   background: var(--main-bg-color);
 }
 
+.button-hero {
+  margin-bottom: 30px;
+}
+
 .hero-title {
+  width: 696px;
+}
+.hero-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -223,6 +237,14 @@ address {
 }
 
 /* Peculiarities */
+
+.peculiarities-list {
+  display: flex;
+  align-items: center;
+}
+.peculiarities-list .list {
+  width: 270px;
+}
 
 .peculiarities-list .title {
   font-weight: 700;
@@ -308,6 +330,9 @@ address {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--main-bg-color);
   text-decoration: none;
 }
@@ -358,6 +383,13 @@ address {
 }
 
 /* Portfolio Page */
+.portfolio-container {
+  width: 1230px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .portfolio {
   list-style: none;
