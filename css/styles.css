@@ -15,6 +15,9 @@
   --header-line-color: #ececec;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
   --buton-bg-color: #2196f3;
+
+  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* General */
@@ -288,11 +291,26 @@ address {
 }
 
 /* Employment */
+.work-section {
+  padding-top: 0%;
+}
+
+.work-photo {
+  display: flex;
+}
+
+.work-list {
+  margin-right: 30px;
+}
+
+.work-list:last-child {
+  margin-right: 0px;
+}
 
 .work-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -311,6 +329,23 @@ address {
 
 .team {
   background-color: var(--secondary-bg-color);
+}
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  margin-right: 30px;
+  text-align: center;
+
+  background-color: var(--accent-secondary-text-color);
+
+  box-shadow: var(--box-shadow-team);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:last-child {
+  margin-right: 0;
 }
 
 .team-title {
@@ -339,6 +374,12 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.team-cards {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Footer */
 
 .footer {
